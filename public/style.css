@@ -1,0 +1,72 @@
+body {
+  margin: 15px; 
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: #f8fcff;
+  text-align: var(--bs-body-text-align);
+  background-color: #4e4b4b;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #c13131;
+}
+
+header{
+	background:"img.jpg" ;
+	background-size:cover;
+	height:100%;
+	width: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+@media (max-width: 100px) {
+  .miclase {
+    background-color: #87ceeb !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .miclase {
+    background-color: #a84e3e;
+  }
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .miclase {
+    background-color: #01dfdf;
+  }
+  
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .miclase {
+    background-color: #fc008bd5;
+  }
+  
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .miclase {
+    background-color: #ac00fcd5;
+  }
+  
+}
